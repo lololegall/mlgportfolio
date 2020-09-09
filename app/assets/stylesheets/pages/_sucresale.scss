@@ -1,0 +1,63 @@
+/// top image
+
+.project-page-sucresale {
+  padding: 50px 50px 0 50px;
+  background-color: #AACAD3;
+  height: 100%;
+}
+
+.project-intro-image-sucresale {
+  background: linear-gradient(180deg, #AACAD3 80%, #F8F8F8 60%);
+  padding: 50px 0 50px 0;
+}
+
+.project-intro-image-sucresale img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/// video mobile
+
+.video-mobile {
+  margin: 200px 100px 200px 100px;
+}
+
+.video-mobile video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/// diapo
+
+.diapo {
+  background-color: #FFFFFF;
+}
+
+.diapo img {
+  width: 80%;
+}
+
+.diapo-right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+///
+
+.two-mobiles img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 100px;
+}
+
+/// proto
+
+.mobile-proto {
+  width: 60%;
+}

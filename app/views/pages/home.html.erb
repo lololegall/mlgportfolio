@@ -1,0 +1,17 @@
+<%= render 'components/navbar' %>
+
+<div class="card1">
+
+  <h1 class="slide-left">HI,</h1>
+  <h2 class="slide-left">BONJOUR<br>I'M MARGAUX</h2>
+  <h3 class="slide-left">DIGITAL MARKETING<br>UX UI DESIGN<br>WEB DEVELOPMENT</h3>
+
+  <div class="center-ref">
+    <div class="reflection-container">
+      <% (1..100).each do |cell| %>
+        <a class="reflection-grid-cell reflection-grid-cell-<%= cell %>" href="#"></a>
+      <% end %>
+      <div class="reflection-content"></div>
+    </div>
+  </div>
+</div>

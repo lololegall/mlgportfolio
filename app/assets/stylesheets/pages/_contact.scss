@@ -1,0 +1,71 @@
+.page-contact {
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 680px;
+  padding-top: 150px;
+}
+
+.email {
+  text-decoration: underline;
+
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none;
+}
+
+.email h1 {
+  font-size: 32px;
+}
+
+.email::after {
+    background-image: linear-gradient(to right, #F28F58 0%, #F07E80 51%, #F6B142 100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+
+.email a:hover {
+  text-decoration: none;
+}
+
+.read-resume-here {
+  padding-top: 100px;
+}
+
+.read-resume-here h3 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.resume h2 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.resume-pdf-en {
+  padding-right: 50px;
+}
+
+.resume-linkedin {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.resume-pdf-fr {
+  padding-left: 50px;
+}
+
+#contact-logo {
+  padding-top: 80px;
+}

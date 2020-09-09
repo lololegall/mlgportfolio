@@ -1,0 +1,98 @@
+.page-about {
+  padding: 50px 50px 50px 50px;
+  background-color: #F8F8F8;
+  position: relative;
+  height: 50vw;
+}
+
+///
+
+@media (max-width: 1200px) {
+  .page-about {
+    display: none;
+  }
+}
+
+.about-profilepic {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+
+.about-intro {
+  position: absolute;
+  top: 12%;
+  left: 44%;
+}
+.about-intro h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: black;
+}
+
+.about-description {
+  position: absolute;
+  top: 38%;
+  left: 52%;
+  width: 40%;
+}
+.about-description p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: justify;
+}
+#intro-b {
+  font-weight: 500;
+}
+
+///
+
+.and {
+  text-decoration: underline;
+  padding-bottom: 35px;
+  position: relative;
+  text-decoration: none;
+}
+
+.and h1 {
+  font-size: 32px;
+}
+
+.and::after {
+    background-image: linear-gradient(to right, #F28F58 0%, #F07E80 51%, #F6B142 100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 6px;
+    width: 85%;
+}
+
+.and a:hover {
+  text-decoration: none;
+}
+
+///
+
+.rows {
+  padding: 50px 0 50px 0;
+  background-color: #F8F8F8;
+}
+
+.row {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+
+.picture {
+  height: 12vw;
+}
+
+.picture:hover{
+  transform: scale(1.08);
+  transition: ease 0.1s;
+}

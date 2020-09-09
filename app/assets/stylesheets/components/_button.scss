@@ -1,0 +1,111 @@
+// work page
+
+.btn-work {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+  background-image: linear-gradient(to right, #F28F58 0%, #F07E80 51%, #F6B142 100%);
+ }
+
+.btn-work:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+}
+
+.page-work .btn-left-one {
+  position: absolute;
+  top: 55%;
+  left: 28.5%;
+}
+
+.page-work .btn-right-one {
+  position: absolute;
+  top: 55%;
+  left: 69.5%;
+}
+
+.page-work .btn-left-two {
+  position: absolute;
+  top: 55%;
+  left: 26%;
+}
+
+.page-work .btn-right-two {
+  position: absolute;
+  top: 55%;
+  left: 49.9%;
+}
+
+// about page
+
+.btn-about {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+  background-image: linear-gradient(to right, #F28F58 0%, #F07E80 51%, #F6B142 100%);
+ }
+
+.btn-about:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+}
+
+.btn-resume {
+  position: absolute;
+  top: 87%;
+  left: 52%;
+}
+
+.btn-hireme {
+  position: absolute;
+  top: 87%;
+  left: 74%;
+}
+
+// whatido page
+
+.btn-whatido {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+
+  background-image: linear-gradient(to right, #F28F58 0%, #F07E80 51%, #F6B142 100%);
+ }
+
+.btn-whatido:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+}
+

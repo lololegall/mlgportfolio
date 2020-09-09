@@ -1,0 +1,166 @@
+/// page
+
+.whatido-page {
+  margin: 50px 50px 0 50px;
+}
+
+/// parts of the page except intro
+
+.whatido-part {
+  padding: 120px 50px 120px 50px;
+}
+
+/// intro part
+
+.whatido-part-intro {
+  padding: 70px 50px 40px 50px;
+}
+
+/// "what i can do"
+
+.whaticando {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.online {
+  text-decoration: underline;
+  padding-bottom: 35px;
+  position: relative;
+  text-decoration: none;
+}
+
+.and::after {
+    background-image: linear-gradient(to right, #F28F58 0%, #F07E80 51%, #F6B142 100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 6px;
+    width: 100%;
+}
+
+/// all the icons and buttons
+
+.inconbtn {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+/// every icon
+
+.whatido-icon {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/// arrow
+
+.whatido-arrow {
+  padding-top: 100px;
+}
+
+.whatido-arrow img {
+  width: 3%;
+}
+
+///
+
+.whatido-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.whatido-left {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.whatido-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+/// fonts
+
+.whatido-part-intro .whaticando h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: black;
+}
+
+.whatido-page h1 {
+  font-size: 18px;
+}
+
+.whatido-page h2 {
+  font-size: 32px;
+}
+
+/// colors
+
+.whatido-intro {
+  background-color: #F8F8F8;
+}
+
+///
+
+.whatido-mkt {
+  background-color: #000000;
+}
+.whatido-mkt h1 {
+  color: #F8F8F8;
+}
+.whatido-mkt h2 {
+  color: #F8F8F8;
+}
+.whatido-mkt h3 {
+  color: #F8F8F8;
+}
+.whatido-mkt p {
+  color: #F8F8F8;
+}
+
+///
+
+.whatido-ux {
+  background-color: #FCEFEB;
+}
+
+///
+
+.whatido-dev {
+  background-color: #F8F8F8;
+}
+
+///
+
+.whatido-method {
+  background-color: #000000;
+}
+.whatido-method h1 {
+  color: #F8F8F8;
+}
+.whatido-method h2 {
+  color: #F8F8F8;
+}
+.whatido-method h3 {
+  color: #F8F8F8;
+}
+.whatido-method p {
+  color: #F8F8F8;
+}
+
+/// footer
+
+.page-whatido-footer {
+  padding: 0 50px 5px 50px;
+  background-color: #000000;
+  color: white;
+}

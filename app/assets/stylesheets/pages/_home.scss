@@ -1,0 +1,47 @@
+body {
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card1 {
+  background-color: white; // #FCEFEB;
+  height: 750px;
+}
+
+.card1 h1 {
+  color: black;
+  position: absolute;
+  z-index: 15;
+  top: 0%;
+  left: 48%;
+
+  font-family: 'Notable';
+  font-size: 200px;
+}
+
+.card1 h2 {
+  color: black;
+  position: absolute;
+  z-index: 15;
+  top: 30%;
+  left: 48%;
+
+  font-family: 'Syne';
+  font-size: 52px;
+}
+
+.card1 h3 {
+  color: black;
+  position: absolute;
+  z-index: 15;
+  top: 70%;
+  left: 48%;
+
+  font-family: 'Syne';
+  font-size: 28px;
+}
+

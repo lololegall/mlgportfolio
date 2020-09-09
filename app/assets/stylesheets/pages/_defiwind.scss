@@ -1,0 +1,125 @@
+/// top image
+
+.project-page-defiwind {
+  padding: 50px 50px 0 50px;
+  background-color: #EE5B44;
+  height: 100%;
+}
+
+.project-intro-image-defiwind {
+  background: linear-gradient(180deg, #EE5B44 80%, #FBFAFB 60%);
+  padding: 50px 0 50px 0;
+}
+
+.project-intro-image-defiwind img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/// arrow
+
+.project-arrow-defiwind {
+  background-color: #FBFAFB;
+  padding-top: 20px;
+}
+
+.project-arrow-defiwind img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
+}
+
+/// title
+
+.project-title-defiwind {
+  background-color: #FBFAFB;
+  padding: 50px 100px 50px 100px;
+}
+
+.project-title-defiwind h1 {
+  font-size: 50px;
+  color: black;
+}
+
+/// description
+
+.project-description-defiwind {
+  background-color: #FBFAFB;
+  padding: 50px 250px 150px 250px;
+}
+
+.project-description-defiwind p {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  line-height: 40px;
+}
+
+/// video
+
+.video-defiwind {
+  padding: 0 100px 200px 100px;
+  background-color: #FBFAFB;
+}
+
+.video-defiwind video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/// research
+
+.research-defiwind {
+  background-color: #FFFFFF;
+  padding: 100px 0 0 0;
+}
+
+.research-defiwind img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/// development
+
+.dev-defiwind {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  justify-items: center;
+  align-items: center;
+  padding: 100px 50px 100px 50px;
+  background-color: #FBFAFB;
+}
+
+.dev-defiwind img {
+  width: 90%;
+
+  -webkit-box-shadow: 10px 10px 25px -19px rgba(166,166,166,0.46);
+  -moz-box-shadow: 10px 10px 25px -19px rgba(166,166,166,0.46);
+  box-shadow: 10px 10px 25px -19px rgba(166,166,166,0.46);
+}
+
+/// interface
+
+.interface-defiwind {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  justify-items: center;
+  align-items: center;
+  padding: 100px 50px 100px 50px;
+  background-color: #FBFAFB;
+}
+
+.interface-defiwind img {
+  width: 90%;
+}

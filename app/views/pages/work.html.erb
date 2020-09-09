@@ -1,0 +1,33 @@
+<%= render 'components/navbar' %>
+
+<div class="fade-in-bottom">
+
+  <div class="page-work">
+    <div class="project">
+      <img src="assets/margalouproject.png" width="100%" alt="Margalou">
+      <%= link_to margalou_path do %>
+        <button class="btn btn-work btn-left-one">CASE STUDY</button>
+      <% end %>
+    </div>
+    <div class="project">
+      <img src="assets/sucresaleproject.png" width="100%" alt="Sucré Salé">
+      <%= link_to sucre_sale_path do %>
+        <button class="btn btn-work btn-right-one">CASE STUDY</button>
+      <% end %>
+    </div>
+    <div class="project">
+      <img src="assets/defiwindproject.png" width="100%" alt="Défi Wind">
+      <%= link_to defi_wind_path do %>
+        <button class="btn btn-work btn-left-two">CASE STUDY</button>
+      <% end %>
+    </div>
+    <div class="project">
+      <img src="assets/unchienenvilleproject.png" width="100%" alt="Un chien en ville">
+      <%= link_to un_chien_en_ville_path do %>
+        <button class="btn btn-work btn-right-two">CASE STUDY</button>
+      <% end %>
+    </div>
+  </div>
+
+  <%= render 'components/footer' %>
+</div>
