@@ -51,4 +51,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pg'  # No more `gem 'sqlite'` thanks to `--database=postgresql`
+
 gem 'simple_form'
+
+gem 'cloudinary', '~> 1.12.0'

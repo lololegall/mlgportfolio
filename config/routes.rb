@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'work', to: 'pages#work'
-  get 'whatido', to: 'pages#whatido'
+  get 'what-i-can-do', to: 'pages#whaticando'
   get 'margalou', to: 'pages#margalou'
   get 'sucre-sale', to: 'pages#sucresale'
   get 'defi-wind', to: 'pages#defiwind'
